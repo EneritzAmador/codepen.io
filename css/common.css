@@ -1,0 +1,11 @@
+/*commons styles*/
+body {
+    margin: 0px;
+    font-family: "lato", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+  /*empty gray space that appears in the image*/
+.spacer50 {
+  height: 70px;
+  background-color: #16171a;
+  }

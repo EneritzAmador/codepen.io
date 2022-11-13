@@ -1,0 +1,105 @@
+.navigation-wrapper {   
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+/* Left Column*/
+.navigation-wrapper > .navigation-left-column {
+    padding: 5px;
+}
+
+.navigation-wrapper > .navigation-left-column > .codepen-logo img {
+    width: 150px;
+    align-items: center;
+    margin-left: 45px;
+}
+
+/* Center Column*/
+.navigation-center-column {
+    padding: 5px 50px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.navigation-center-column > .toptitle {
+    color: #ffdd40;
+    font-size: 16px;
+    height: 26px;
+    margin-top: 59px;
+    text-transform: uppercase;
+}
+
+.navigation-center-column > .links-wrapper {
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: -10px;
+}
+
+.navigation-center-column > .links-wrapper a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "lato", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.navigation-center-column > .links-wrapper > .spark-nav-link a {
+    color: #959699;
+    font-size: 19px;
+    margin-left: 30px;
+}
+
+/* Right Column*/
+.navigation-wrapper > .navigation-right-column {
+    width: 700px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+
+}
+
+.navigation-wrapper > .navigation-right-column > .buttons-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    justify-content: flex-end;
+}
+
+.btn {
+    background-color: #504f52;
+    color: white;
+    font-size: 18px;
+    font-family: "lato", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin: 8px;
+    width: 100%;
+}
+
+.btn i {
+    color: #47cf73;
+}
+
+.navigation-wrapper > .navigation-right-column > .buttons-wrapper > .magnifying-glass-icon {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.navigation-wrapper > .navigation-right-column > .buttons-wrapper > .magnifying-glass-icon a {
+    color: rgb(139, 133, 133);
+}
